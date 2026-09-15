@@ -1,0 +1,6 @@
+{
+  "name": "runcomfy",
+  "owner": { "name": "RunComfy", "email": "hi@runcomfy.com" },
+  "metadata": { "description": "RunComfy tools for image and video generation, ComfyUI workflows, and LoRA training." },
+  "plugins": [{ "name": "runcomfy", "source": "./plugins/runcomfy" }]
+}
