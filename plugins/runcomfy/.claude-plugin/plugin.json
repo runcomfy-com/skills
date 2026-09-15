@@ -1,0 +1,10 @@
+{
+  "name": "runcomfy",
+  "version": "1.0.0",
+  "description": "Run ComfyUI workflows in the cloud on GPU, generate images with FLUX and Seedream, create videos with Seedance, Wan and LTX, and manage LoRA training.",
+  "author": { "name": "RunComfy", "email": "hi@runcomfy.com" },
+  "homepage": "https://www.runcomfy.com",
+  "repository": "https://github.com/runcomfy-com/skills",
+  "license": "MIT",
+  "keywords": ["comfyui", "gpu", "ai-image-generator", "ai-video-generator", "ai-image-models", "ai-video-models", "flux", "flux-2", "seedream", "seedream-5.0", "seedance", "seedance-2.5", "wan", "wan-3.0", "ltx", "ltx-2.5", "lora-training"]
+}
