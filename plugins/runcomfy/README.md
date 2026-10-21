@@ -44,9 +44,11 @@ Try: “Compare current Seedance, Wan and LTX models for a five-second product v
 
 ## Account, costs and data
 
-- A RunComfy account is required for authenticated tools. Paid generation, GPU deployments and training consume RunComfy credits; the plugin's source is MIT-licensed.
+- A RunComfy account is required for authenticated tools. Paid generation, GPU deployments and training consume RunComfy credits; the plugin's source is MIT-licensed. RunComfy requires users to be at least 18.
 - The MCP endpoint is `https://mcp.runcomfy.com/mcp`. No local server, RunComfy CLI, shell hooks or bundled credentials are required.
 - Your requests, prompts, referenced media and training configuration are sent to RunComfy when you use its tools. File inputs must be accessible to the remote service; a private local path is not sufficient. Upload or publish private assets only with authorization.
+- For local dataset files and captions, your client may make direct uploads, including HTTP PUT requests, to signed storage destinations returned by `get_dataset_upload_urls`. These uploads occur outside the MCP connection. Upload only assets you are authorized to share.
+- RunComfy's APIs and contracted infrastructure and processors handle account and service data as described in its Privacy Policy. RunComfy reads and stores data; retention can last for the account lifetime, with longer retention or other exceptions described in that policy.
 - The connection exposes RunComfy account tools, including persistent resource changes. The skills guide cost review and careful execution; client permissions and service authorization enforce access.
 - Slow jobs are monitored by request ID, without automatic paid resubmission. Returned media links may need to be opened directly when inline rendering is unavailable.
 - Price estimates and monitoring deadlines are not guaranteed spending caps. Some running model requests cannot be cancelled; report the cancellation outcome and remaining job state.
