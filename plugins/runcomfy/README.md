@@ -1,14 +1,16 @@
 # RunComfy for Cursor, Claude Code and Cowork
 
-Run ComfyUI workflows in the cloud on GPU, use RunComfy as an **AI image generator** and **AI video generator**, and manage **LoRA training** from your assistant. This plugin combines RunComfy's hosted MCP connection with four practical skills for reviewing requests, running jobs and retrieving results.
+Manage ComfyUI deployments in the cloud on GPU, use RunComfy as an **AI image generator** and **AI video generator**, and prepare datasets and manage **LoRA training** from your assistant. This plugin combines RunComfy's hosted MCP connection with four practical skills for inspecting workflow inputs, reviewing costs, running approved jobs and retrieving results.
+
+[Setup and tool documentation](https://docs.runcomfy.com/mcp/introduction)
+
+The connected tools cover deployment hardware, scaling, queues and keep-warm settings; hosted-model discovery and inference; datasets and captions; and AI Toolkit training jobs, checkpoints and samples.
 
 Explore [AI image models and AI video models](https://www.runcomfy.com/models), including FLUX, Seedream, Seedance, Wan, LTX, Nano Banana and Kling. Current model families include FLUX 2, Seedream 5.0, Seedance 2.5, Wan 3.0 and LTX 2.5. Each run uses live model discovery and the selected endpoint's current schema and price; availability and supported settings can change.
 
 ## Install and connect
 
 ### Claude Code
-
-After this package is merged into the repository's default branch:
 
 ```text
 /plugin marketplace add runcomfy-com/skills

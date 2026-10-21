@@ -23,7 +23,6 @@ Use RunComfy's connected MCP tools. Authenticate through the client's sign-in co
 - Use `cancel_request` for a user cancellation or an agreed stopping condition. Explain that cancellation may not undo already incurred charges.
 - Return actual output URLs and request ID. Check the deployment's state after completion when the task includes releasing GPU resources or controlling ongoing cost. Do not delete the deployment as routine cleanup.
 - Describe standby and keep-warm state accurately. Report actual wallet movement only after a relevant recheck, and do not attribute concurrent account activity to this one job.
-- Use `call_instance_proxy` only for a specific authorized action whose route and effect are understood; it is not a read-only debugging shortcut.
 
 ## Useful requests
 

@@ -1,8 +1,8 @@
 {
   "name": "runcomfy",
   "displayName": "RunComfy",
-  "version": "1.0.0",
-  "description": "Run ComfyUI workflows in the cloud on GPU, generate images with FLUX and Seedream, create videos with Seedance, Wan and LTX, and manage LoRA training.",
+  "version": "1.0.1",
+  "description": "Manage ComfyUI deployments on GPU, discover and run image and video models, prepare datasets, and manage AI Toolkit LoRA training on RunComfy.",
   "author": { "name": "RunComfy", "email": "hi@runcomfy.com" },
   "homepage": "https://www.runcomfy.com",
   "repository": "https://github.com/runcomfy-com/skills",
