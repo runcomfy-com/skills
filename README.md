@@ -12,6 +12,10 @@ The [RunComfy plugin](plugins/runcomfy/README.md) bundles the hosted MCP endpoin
 
 See the [plugin README](plugins/runcomfy/README.md) for installation, authorization, example prompts and cost handling.
 
+## Skills for RunComfy MCP
+
+The skills agents get by connecting to RunComfy MCP, such as product photoshoots, UGC videos and ad variants, are in [runcomfy-com/runcomfy-skills](https://github.com/runcomfy-com/runcomfy-skills). The plugin here finds them through the MCP connection, so there is nothing more to install.
+
 ## Individual CLI skills
 
 The existing top-level skill directories provide task-specific and model-specific RunComfy CLI guidance. Install selected skills from this repository:
