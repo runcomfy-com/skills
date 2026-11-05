@@ -1,7 +1,7 @@
 {
   "name": "runcomfy",
   "displayName": "RunComfy",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Manage ComfyUI deployments on GPU, discover and run image and video models, prepare datasets, and manage AI Toolkit LoRA training on RunComfy.",
   "author": { "name": "RunComfy", "email": "hi@runcomfy.com" },
   "homepage": "https://www.runcomfy.com",

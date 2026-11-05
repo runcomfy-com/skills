@@ -17,7 +17,7 @@ Explore [AI image models and AI video models](https://www.runcomfy.com/models), 
 /plugin install runcomfy@runcomfy
 ```
 
-Open `/mcp`, select RunComfy and complete its browser authorization. Obtain a RunComfy API token from your [RunComfy profile](https://www.runcomfy.com/profile) if requested by the RunComfy authorization page. Enter it only on that page, not in chat or configuration files.
+Open `/mcp`, select RunComfy and sign in with your RunComfy account in the browser. No API token is needed.
 
 ### Cowork
 
@@ -33,6 +33,7 @@ For local development, copy or symlink this **plugin directory** to `~/.cursor/p
 
 | Skill | What it helps you do |
 | --- | --- |
+| `runcomfy` | Loads step-by-step skills from the RunComfy server, so they stay current without updating this plugin: upscaling, background removal, product photoshoots, UGC videos, ad variants, explainers, music, setting up ComfyUI workflows, machines and more. |
 | `generate-image` | Find an image or editing model, review its inputs and price, submit one job and retrieve its outputs. |
 | `generate-video` | Select a video endpoint, review duration/resolution/audio and cost, monitor generation and return a playable output link. |
 | `comfyui-workflows` | Inspect owned deployments, map actual workflow inputs, run approved requests and check resource state. |
@@ -57,6 +58,6 @@ Read [RunComfy's Privacy Policy](https://www.runcomfy.com/legal/privacy) and [Te
 
 ## Source and support
 
-Both client manifests point to this self-contained directory. The four skill files are shared; Cursor reads `mcp.json`, while Claude reads `.mcp.json`. Parent-repository CLI skills are not automatically loaded by this plugin.
+Both client manifests point to this self-contained directory. The skill files are shared; Cursor reads `mcp.json`, while Claude reads `.mcp.json`. Parent-repository CLI skills are not automatically loaded by this plugin.
 
 [MCP documentation](https://docs.runcomfy.com/mcp/introduction) · [ComfyUI workflows](https://www.runcomfy.com/comfyui-workflows) · [LoRA training](https://www.runcomfy.com/trainer/ai-toolkit) · [Report an issue](https://github.com/runcomfy-com/skills/issues) · [hi@runcomfy.com](mailto:hi@runcomfy.com)
